@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorBg">
+
+    <Button
+        android:id="@+id/dispaly_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/display_dictoinary_provider_words"
+        android:textColor="@color/colorWhite"
+        android:padding="20dp"/>
+    <Button
+        android:id="@+id/add_new_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="@string/add_new_provider_content"
+        android:textColor="@color/colorWhite"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btn_service_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="@string/service_mucsic"
+        android:textColor="@color/colorWhite"
+        android:padding="20dp"/>
+
+</LinearLayout>
